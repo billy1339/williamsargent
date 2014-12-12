@@ -30,10 +30,51 @@ a:hover {
 }
 
 .projects {
-  margin-top: 5em;
-  margin-bottom: 5em;
-  vertical-align: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    vertical-align: auto;
+  }
+
+@media (max-width: 480px) {
+  #project1 {
+    width: 100%;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+
+  #project2 {
+    width: 100%;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+
+  #project3 {
+    width: 100%;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
 }
+
+@media (max-width: 768px) {
+  #project1 {
+    width: 100%;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+
+  #project2 {
+    width: 100%;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+
+  #project3 {
+    width: 100%;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+}
+
 
 
 #remind {
