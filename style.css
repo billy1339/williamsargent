@@ -61,6 +61,12 @@ a:hover {
     margin-left: 3em;
     margin-bottom: 2em;
   }
+/*  #remind {
+    height: 275px;
+    width: 350px;
+    border: 1px solid rgb(50, 50, 50);
+    vertical-align: top;
+  }*/
 
   #project2 {
     width: 100%;
@@ -149,9 +155,11 @@ p {
   border: 1px solid white;
   margin-left: .75em;
   margin-right: .75em;
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-bottom: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-radius: 15%;
 }
 
 .pclass {
