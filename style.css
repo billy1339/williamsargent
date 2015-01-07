@@ -8,8 +8,7 @@
   background-size: cover;
 }
 
-
-a:hover {
+a:hover{
   opacity: 0.5;
 }
 
@@ -130,7 +129,7 @@ p {
 /*  margin-top: 3em;*/
   margin-bottom: 3em;
   font-family: 'Gloria Hallelujah';
-  font-size: 20px;
+  font-size: 19.25px;
   word-spacing: 2px;
   line-height: 2.25;
 }
