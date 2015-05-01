@@ -28,11 +28,18 @@ a:hover{
   font-size: 25px;
 }
 
-.projects {
-    margin-top: 5em;
-    margin-bottom: 5em;
-    vertical-align: auto;
-  }
+/*.projects {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }*/
+
+.row {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
 @media (max-width: 480px) {
   #project1 {
@@ -48,6 +55,11 @@ a:hover{
   }
 
   #project3 {
+    width: 100%;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+  #project4 {
     width: 100%;
     margin-left: 3em;
     margin-bottom: 2em;
@@ -78,28 +90,56 @@ a:hover{
     margin-left: 3em;
     margin-bottom: 2em;
   }
+  #project4 {
+    width: 100%;
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
 }
 
+
+#project1 {
+  vertical-align: middle;
+}
+#project2 {
+  vertical-align: middle;
+}
+#project3 {
+  vertical-align: middle;
+}
+#project4 {
+  vertical-align: middle;
+}
+
+.center {
+  vertical-align: middle;
+}
 
 
 #remind {
   height: 175px;
   width: 250px;
   border: 1px solid rgb(50, 50, 50);
-  vertical-align: top;
+  /*vertical-align: center;*/
 }
 
 #pixelect {
   height: 175px;
   width: 250px;
   border: 1px solid rgb(50, 50, 50);
-  vertical-align: middle;
+  /*vertical-align: center;*/
 }
 #mtMapper {
   height: 175px;
   width: 250px;
   border: 1px solid rgb(50, 50, 50);
-  vertical-align: bottom;
+  /*vertical-align: center;*/
+}
+#actorMatch {
+  height: 175px;
+  width: 250px;
+  border: 1px solid rgb(50, 50, 50);
+  /*vertical-align: center;*/
 }
 
 #project-title {
